@@ -2,8 +2,8 @@ const cryptoUtils = require("./cryptoUtils");
 const dingo = require("./dingo");
 const assert = require("assert");
 
-const LISTING_FEE = dingo.toSatoshi("1000");
-const REPRICE_FEE = dingo.toSatoshi("1000");
+const LISTING_FEE = dingo.toSatoshi("100"); //old 1000
+const REPRICE_FEE = dingo.toSatoshi("100"); //old 1000
 const LINK_PAYMENT = dingo.toSatoshi("1"); // 1 coin.
 const PLATFORM_TAX = "25"; // 2.5%
 const DUST = "100000000"; // 1 coin.
